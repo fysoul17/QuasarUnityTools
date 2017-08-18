@@ -7,7 +7,8 @@ However, this project is not in any way endorsed or supervised by Unity Technolo
 _Unity&reg; is a trademark of Unity Technologies._
 
 ## Overview
-* PlayFab authentication with verious platform with just one line of code. 
+* PlayFab authentication with verious platform with just one line of code.
+
 __IMPORTANT__: Some API/Plugins provided by each organization are required
   - [PlayFab](https://api.playfab.com/sdks/unity)
   - [Facebook](https://developers.facebook.com/docs/unity/)
