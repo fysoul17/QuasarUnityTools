@@ -15,7 +15,8 @@ _Unity&reg; is a trademark of Unity Technologies._
 ## PlayFab
 ### Authentication
 
-```using Quasar.PlayFab.Authentication;
+```csharp
+using Quasar.PlayFab.Authentication;
 
 public class Authentication : MonoBehaviour
 {
@@ -41,4 +42,5 @@ public class Authentication : MonoBehaviour
     }
     
     ...
-}```
+}
+```
