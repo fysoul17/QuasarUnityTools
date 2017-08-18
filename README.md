@@ -8,8 +8,7 @@ _Unity&reg; is a trademark of Unity Technologies._
 
 ## Overview
 * PlayFab authentication with verious platform with just one line of code.
-
-__IMPORTANT__: Some API/Plugins provided by each organization are required
+(__IMPORTANT__: API/Plugins provided by each organization are required)
   - [PlayFab](https://api.playfab.com/sdks/unity)
   - [Facebook](https://developers.facebook.com/docs/unity/)
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity)
