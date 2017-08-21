@@ -12,6 +12,9 @@ _Unity&reg; is a trademark of Unity Technologies._
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
 
+* Random selection from list of item with probabilities.
+* Big number formatter. (1,000 -> 1.00A, 1,000,000 -> 1.00B, ...)
+
 ## PlayFab
 ### Authentication
 
@@ -44,3 +47,21 @@ public class Authentication : MonoBehaviour
     ...
 }
 ```
+
+## Utilities
+```csharp
+using Quasar.Util
+```
+* QuasarRandom
+```csharp
+// Select the index randomly from the array of probabilities.
+// ex) float[] p = { 0.1f, 0.3f, 0.5f, 0.1f } => each item has 10%, 30%, 50%, 10% chances to be selected.
+int SelectRandomIndexWithProbability(float[] probabilities); 
+```
+* BigNumberFormatter
+```csharp
+// Returns formatted string of double number.
+// Can be renamed by modifying __enum BigNumberFormat__.
+string ToFormattedString(this double aNumber, string formatter = "n2")
+```
+
