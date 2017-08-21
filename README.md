@@ -56,12 +56,13 @@ using Quasar.Util
 ```csharp
 // Select the index randomly from the array of probabilities.
 // ex) float[] p = { 0.1f, 0.3f, 0.5f, 0.1f } => each item has 10%, 30%, 50%, 10% chances to be selected.
-int SelectRandomIndexWithProbability(float[] probabilities); 
+int randomSelectedIndex = QuasarRandom.SelectRandomIndexWithProbability(emergeProbabilities);
 ```
 * BigNumberFormatter
 ```csharp
 // Returns formatted string of double number.
 // Can be renamed by modifying 'enum BigNumberFormat'.
-string ToFormattedString(this double aNumber, string formatter = "n2")
+double aBigNumber = 10000000000d;
+string formattedString = aBigNumber.ToFormattedString("n2");
 ```
 
