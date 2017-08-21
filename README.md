@@ -61,7 +61,7 @@ int SelectRandomIndexWithProbability(float[] probabilities);
 * BigNumberFormatter
 ```csharp
 // Returns formatted string of double number.
-// Can be renamed by modifying __enum BigNumberFormat__.
+// Can be renamed by modifying 'enum BigNumberFormat'.
 string ToFormattedString(this double aNumber, string formatter = "n2")
 ```
 
