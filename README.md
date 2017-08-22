@@ -14,6 +14,9 @@ _Unity&reg; is a trademark of Unity Technologies._
 
 * Random selection from list of item with probabilities.
 * Big number formatter. (1,000 -> 1.00A, 1,000,000 -> 1.00B, ...)
+* Advanced joystick (Single / Dual). (__IMPORTANT__: 'Standard Assets' is required)
+  - Assets > (Right click) > Import Package > __CrossPlatformInput__
+  
 
 ## PlayFab
 ### Authentication
