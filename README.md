@@ -32,9 +32,6 @@ using Quasar.PlayFab.Authentication;
 
 public class Authentication : MonoBehaviour
 {
-
-    ...
-    
     public void Authenticate() 
     {
         // PlayFab Custom
@@ -52,8 +49,6 @@ public class Authentication : MonoBehaviour
         // Google Play
         new GooglePlayAuthentication().Login(OnLoginSuccess, OnLoginFailed, infoRequestParams);
     }
-    
-    ...
 }
 ```
 
@@ -68,16 +63,14 @@ Grab prefab named 'LoadingIndicator' and put it on Canvas which has __highest so
 public class UITest : MonoBehaviour
 {
     [SerializeField] LoadingIndicator loadingIndicator;
-    
-    ...
-    
+
     public void LoadSomething() 
     {
         // With Text: loadingIndicator.Display("Loading data from server...");
         loadingIndicator.Display();
         
         // Loading start.
-        ...
+        // Loading...
         // Loading done.
         
         loadingIndicator.Hide();
