@@ -11,7 +11,10 @@ _Unity&reg; is a trademark of Unity Technologies._
   - [PlayFab](https://api.playfab.com/sdks/unity) - Tested with Version of 2.26.170814 
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
-
+  
+* Many useful UI tools. (__IMPORTANT__: Some requires plugins)
+  - __Loading Indicator__ needs [iTween](http://u3d.as/1s9) - Tested with version of 2.0.7
+  
 * Random selection from list of item with probabilities.
 * Big number formatter. (1,000 -> 1.00A, 1,000,000 -> 1.00B, ...)
 * Advanced joystick (Single / Dual). (__IMPORTANT__: 'Standard Assets' is required)
@@ -19,6 +22,9 @@ _Unity&reg; is a trademark of Unity Technologies._
   
 
 ## PlayFab
+```charp
+using Quasar.PlayFab
+```
 ### Authentication
 
 ```csharp
@@ -48,6 +54,33 @@ public class Authentication : MonoBehaviour
     }
     
     ...
+}
+```
+
+## UI
+```csharp
+using Quasar.UI
+```
+### Loading Indicator
+Grab prefab named 'LoadingIndicator' and put it on Canvas which has __highest sorting order__ so that it can block inner UIs while showing indicator.
+
+```csharp
+public class UITest : MonoBehaviour
+{
+    [SerializeField] LoadingIndicator loadingIndicator;
+    
+    ...
+    
+    public void LoadSomething() 
+    {
+        loadingIndicator.Display();
+        
+        // Loading start.
+        ...
+        // Loading done.
+        
+        loadingIndicator.Hide();
+    }
 }
 ```
 
