@@ -7,6 +7,8 @@ However, this project is not in any way endorsed or supervised by Unity Technolo
 _Unity&reg; is a trademark of Unity Technologies._
 
 ## Overview
+* Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-unity-tool)
+
 * PlayFab authentication with various platform with just one line of code. (__IMPORTANT__: API/Plugins provided by each organization are required)
   - [PlayFab](https://api.playfab.com/sdks/unity) - Tested with Version of 2.26.170814 
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
