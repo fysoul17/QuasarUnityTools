@@ -105,3 +105,17 @@ private void HandleSwipeInput(InputDirection direction)
     ...
 }
 ```
+
+## Patterns
+```csharp
+using Quasar.Patterns
+```
+### MonoSingleton
+Source code is from [this site](http://wiki.unity3d.com/index.php/Singleton).
+This script doesn't need to add 'using' as it does not use custom namespace.
+```csharp
+public class Singleton : MonoSingleton<Singleton>
+{
+    ...
+}
+```
