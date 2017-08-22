@@ -372,6 +372,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1117114954}
+  - component: {fileID: 1117114955}
   m_Layer: 0
   m_Name: _Swipe Tester
   m_TagString: Untagged
@@ -392,6 +393,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1117114955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1117114953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33806110775da2f45a3a83179c4c7e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputText: {fileID: 1373317183}
 --- !u!1 &1373317181
 GameObject:
   m_ObjectHideFlags: 0
