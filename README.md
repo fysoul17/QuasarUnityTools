@@ -55,13 +55,13 @@ public class Authentication : MonoBehaviour
 ```csharp
 using Quasar.Util
 ```
-* QuasarRandom
+### QuasarRandom
 ```csharp
 // Select the index randomly from the array of probabilities.
 // ex) float[] p = { 0.1f, 0.3f, 0.5f, 0.1f } => each item has 10%, 30%, 50%, 10% chances to be selected.
 int randomSelectedIndex = QuasarRandom.SelectRandomIndexWithProbability(emergeProbabilities);
 ```
-* BigNumberFormatter
+### BigNumberFormatter
 ```csharp
 // Returns formatted string of double number.
 // Can be renamed by modifying 'enum BigNumberFormat'.
@@ -74,7 +74,7 @@ string formattedString = aBigNumber.ToFormattedString("n2");
 ```csharp
 using Quasar.Input
 ```
-* AdvancedJoystick  
+### AdvancedJoystick  
 
 Added few function based on Unity standard assets' 'Joystick' script as standard joystick only provides simple function whereas 'AdvancedJoystick' provides more such as 'Rectangular joystick', 'Single/dual joystick' and 'dynamic joystick' function.  
 
