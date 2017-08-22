@@ -91,14 +91,16 @@ public bool dynamicJoystick             // Allows to move around touch area when
 
 ### Swipe Detector
 
-Detects swipe input in 4 directions. Can be modified to 8 directions easily.  
+Detects swipe input in 4 directions. Can be modified to 8 directions easily.
+Simply attach the script to component that is raycast targets (eg. elements of canvas), and use it as below.
+
 ```csharp
 private void Awake()
 {
     SwipeInputDetector.InputDerectionCallback += HandleSwipeInput;
 }
 
-void HandleSwipeInput(InputDirection direction)
+private void HandleSwipeInput(InputDirection direction)
 {
     ...
 }
