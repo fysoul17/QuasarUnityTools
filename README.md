@@ -73,6 +73,7 @@ public class UITest : MonoBehaviour
     
     public void LoadSomething() 
     {
+        // With Text: loadingIndicator.Display("Loading data from server...");
         loadingIndicator.Display();
         
         // Loading start.
