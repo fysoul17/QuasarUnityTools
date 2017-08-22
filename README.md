@@ -125,7 +125,7 @@ public class Singleton : MonoSingleton<Singleton>
 using Quasar.Attribute
 ```
 ### Read Only Attribute
-Prevent modifying value on Editor.
+Prevents modifying value on Editor.
 ```csharp
 [ReadOnlyProperty]
 public int readOnlyValue = 10;
