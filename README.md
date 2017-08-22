@@ -72,7 +72,9 @@ string formattedString = aBigNumber.ToFormattedString("n2");
 using Quasar.Input
 ```
 * AdvancedJoystick  
+
 Added few function based on Unity standard assets' 'Joystick' script as standard joystick only provides simple function whereas 'AdvancedJoystick' provides more such as 'Rectangular joystick', 'Single/dual joystick' and 'dynamic joystick' function.  
+
 Check __Dual joystick Prefab__ in Sample folder if needed.    
 __IMPORTANT__: As standard joystick does, it only works on Mobile Platform.  
 ``` 
