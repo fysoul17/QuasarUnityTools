@@ -88,3 +88,18 @@ public enum JoystickType                // Availble joystick types.
 }
 public bool dynamicJoystick             // Allows to move around touch area when user touches.
 ```
+
+### Swipe Detector
+
+Detects swipe input in 4 directions. Can be modified to 8 directions easily.  
+```csharp
+private void Awake()
+{
+    SwipeInputDetector.InputDerectionCallback += HandleSwipeInput;
+}
+
+void HandleSwipeInput(InputDirection direction)
+{
+    ...
+}
+```
