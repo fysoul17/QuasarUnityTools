@@ -7,7 +7,7 @@ However, this project is not in any way endorsed or supervised by Unity Technolo
 _Unity&reg; is a trademark of Unity Technologies._
 
 ## Overview
-* PlayFab authentication with verious platform with just one line of code. (__IMPORTANT__: API/Plugins provided by each organization are required)
+* PlayFab authentication with various platform with just one line of code. (__IMPORTANT__: API/Plugins provided by each organization are required)
   - [PlayFab](https://api.playfab.com/sdks/unity) - Tested with Version of 2.26.170814 
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
@@ -103,7 +103,7 @@ using Quasar.Input
 ```
 ### AdvancedJoystick  
 
-Added few function based on Unity standard assets' 'Joystick' script as standard joystick only provides simple function whereas 'AdvancedJoystick' provides more such as 'Rectangular joystick', 'Single/dual joystick' and 'dynamic joystick' function.  
+Added few function based on Unity standard assets' 'Joystick' script as standard joystick only provides simple function whereas 'AdvancedJoystick' provides more such as 'Circle joystick', 'Single/dual joystick' and 'Dynamic joystick' function.  
 
 Check __Dual joystick Prefab__ in Sample folder if needed.    
 __IMPORTANT__: As standard joystick does, it __only works on Mobile Platform.__  
