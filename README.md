@@ -140,7 +140,8 @@ private void HandleSwipeInput(InputDirection direction)
 ```csharp
 using Quasar.Patterns
 ```
-### MonoSingleton
+### Singleton Pattern
+By inheriting MonoSingleton class, you can easily implement singleton pattern.  
 Source code is from [this site](http://wiki.unity3d.com/index.php/Singleton).
 This script doesn't need to add 'using' as it does not use custom namespace.
 ```csharp
@@ -149,6 +150,9 @@ public class Singleton : MonoSingleton<Singleton>
     ...
 }
 ```
+
+### Command Pattern
+TBA
 
 ## Attribute
 ```csharp
