@@ -119,3 +119,13 @@ public class Singleton : MonoSingleton<Singleton>
     ...
 }
 ```
+
+## Attribute
+```csharp
+using Quasar.Attribute
+```
+### Read Only Attribute
+```csharp
+[ReadOnlyProperty]
+public int readOnlyValue = 10;
+```
