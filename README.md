@@ -15,7 +15,7 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
   
-* Many useful UI tools. (__IMPORTANT__: Some requires plugins)
+* Many useful UI tools. (__IMPORTANT__: Some requires plugins) 
   - __Loading Indicator__ needs [iTween](http://u3d.as/1s9) - Tested with version of 2.0.7
   
 * RPG tools that can be commonly used for RPG Games such as Stat system or inventory system.
