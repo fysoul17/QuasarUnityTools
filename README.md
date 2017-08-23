@@ -20,11 +20,14 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   
 * RPG tools that can be commonly used for RPG Games such as Stat system or inventory system.
 
-* Random selection from list of item with probabilities.
-* Big number formatter. (1,000 -> 1.00A, 1,000,000 -> 1.00B, ...)
+* Utilities
+  - Random selection from list of item with probabilities.
+  - Big number formatter. (1,000 -> 1.00A, 1,000,000 -> 1.00B, ...)
 
-* Advanced joystick (Single / Dual). (__IMPORTANT__: 'Standard Assets' is required)
-  - Assets > (Right click) > Import Package > __CrossPlatformInput__
+* Input system
+  - Advanced joystick (Single / Dual). (__IMPORTANT__: 'Standard Assets' is required)
+    Import: Assets > (Right click) > Import Package > __CrossPlatformInput__
+  - Swipe detector in 4 directions. 
   
 * Classes that applies GoF design patterns. (Singleton, Command, etc..)
 
