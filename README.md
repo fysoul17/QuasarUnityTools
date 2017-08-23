@@ -29,7 +29,7 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
     Import: Assets > (Right click) > Import Package > __CrossPlatformInput__
   - Swipe detector in 4 directions. 
   
-* Classes that applies GoF design patterns. (Singleton, Command, etc..)
+* Classes that apply GoF design patterns. (Singleton, Command, etc..)
 
 ## PlayFab
 ```csharp
