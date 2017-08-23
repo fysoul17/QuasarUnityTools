@@ -18,11 +18,15 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
 * Many useful UI tools. (__IMPORTANT__: Some requires plugins)
   - __Loading Indicator__ needs [iTween](http://u3d.as/1s9) - Tested with version of 2.0.7
   
+* RPG tools that can be commonly used for RPG Games such as Stat system or inventory system.
+
 * Random selection from list of item with probabilities.
 * Big number formatter. (1,000 -> 1.00A, 1,000,000 -> 1.00B, ...)
+
 * Advanced joystick (Single / Dual). (__IMPORTANT__: 'Standard Assets' is required)
   - Assets > (Right click) > Import Package > __CrossPlatformInput__
   
+* Classes that applies GoF design patterns. (Singleton, Command, etc..)
 
 ## PlayFab
 ```csharp
@@ -54,6 +58,9 @@ public class Authentication : MonoBehaviour
     }
 }
 ```
+
+## RPG
+TBA
 
 ## UI
 ```csharp
