@@ -25,7 +25,7 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   
 
 ## PlayFab
-```charp
+```csharp
 using Quasar.PlayFab
 ```
 ### Authentication
@@ -152,7 +152,25 @@ public class Singleton : MonoSingleton<Singleton>
 ```
 
 ### Command Pattern
-TBA
+Applies command pattern of GoF. Just a simple abstract class.
+```csharp
+public class SomeCommand : Command
+{
+    public override double TimeStamp
+    {
+        get;
+        set;
+    }
+    
+    public override void Execute()
+    {
+    }
+    
+    public override void Undo()
+    {
+    }
+}
+```
 
 ## Attribute
 ```csharp
