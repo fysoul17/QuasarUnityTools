@@ -195,5 +195,5 @@ public int readOnlyValue = 10;
 
 ## Extension
 ### Serialized Property Extensions
-This script is created by Unity Technologies and added here to use at 'Interaction' module editor.
+This script is created by Unity Technologies and added here to use at 'Interaction' module editor.  
 [Source Link](https://unity3d.com/kr/learn/tutorials/projects/adventure-game-tutorial)
