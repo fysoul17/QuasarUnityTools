@@ -193,7 +193,10 @@ Prevents modifying value on Editor.
 public int readOnlyValue = 10;
 ```
 
-## Extension
+## Unity Assets
+__In this folder, every assets are created by Unity Technologies and can be downloaded from thier webpage__  
+### EditorWithSubEditors
+This class acts as a base class for Editors that have Editors nested within them.
+
 ### Serialized Property Extensions
 This script is created by Unity Technologies and added here to use at 'Interaction' module editor.  
-[Source Link](https://unity3d.com/kr/learn/tutorials/projects/adventure-game-tutorial)
