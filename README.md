@@ -161,6 +161,39 @@ public class Singleton : MonoSingleton<Singleton>
 }
 ```
 
+### Observer Pattern
+Simply add observers and notify on other scripts. Below is sample codes for usage.
+```csharp
+public class Player : MonoBehaviour
+{
+    void Start() 
+    {
+        EventHandler.Notify("OnPlayerAwaken", gameObject);
+    }
+}
+```
+```csharp
+public class GameMaster : MonoBehaviour
+{
+    void Awake() 
+    {
+        EventHandler.AddObserver("OnPlayerAwaken", JoinBattle);
+    }
+    
+    // IMPORTANT: Must remove when destoried as the event is static.
+    void OnDestroy()
+    {
+        EventHandler.RemoveObserver("OnMapEnter", JoinBattle);
+    }
+    
+    void JoinBattle(params object[] args) 
+    {
+        Player player = (args[0] as GameObject).GetComponent<Player>();
+        Debug.Log(player + " is joinning battle"); 
+    }
+}
+```
+
 ### Command Pattern
 Applies command pattern of GoF. Just a simple abstract class.
 ```csharp
