@@ -17,6 +17,7 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   
 * PlayFab Server time synchroniser. (__IMPORTANT__: Plugin is required)  
   - [JSON .NET for Unity](http://u3d.as/5q2) - JSON Parser. ($27.50 on Asset store) 
+  - __Cloud script__ must be uploaded to PlayFab Server.
   
 * Many useful UI tools. (__IMPORTANT__: Some requires plugins)
   - __Loading Indicator__ needs [iTween](http://u3d.as/1s9) - Tested with version of 2.0.7
