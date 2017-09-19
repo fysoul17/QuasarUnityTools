@@ -15,6 +15,9 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
   
+* PlayFab Server time synchroniser. (__IMPORTANT__: Plugin is required)  
+  - [JSON .NET for Unity](http://u3d.as/5q2) - JSON Parser. ($27.50 on Asset store) 
+  
 * Many useful UI tools. (__IMPORTANT__: Some requires plugins)
   - __Loading Indicator__ needs [iTween](http://u3d.as/1s9) - Tested with version of 2.0.7
   
@@ -61,6 +64,9 @@ public class Authentication : MonoBehaviour
     }
 }
 ```
+### Server Time
+Fetch server time and sync on client device, so that we can prevent time hacks on client side.
+
 
 ## RPG
 TBA
