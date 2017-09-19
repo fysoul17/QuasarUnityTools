@@ -101,9 +101,7 @@ void OnLoggedIntoPlayFab()
     },
     () =>
     {
-        Debug.Log("Loading data done. Connecting to Photon.");
-
-        //ConnectToPhoton();
+        // Loading done. Proceed next process.
     }));
 }
 ```
