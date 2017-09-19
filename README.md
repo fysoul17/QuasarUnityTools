@@ -110,7 +110,7 @@ void OnLoggedIntoPlayFab()
 
 ### Server Time
 Fetch server time and sync on client device, so that we can prevent time hacks on client side.
-__Attach PlayFabManager, PlayFabTimer and scripts on GameObject__ then use as below:
+__Attach PlayFabManager, PlayFabTimer and ServerTimeSynchroniser scripts on GameObject__ then use as below:
 ```csharp
 ServerTimeSynchroniser.ServerTime
 ```
