@@ -16,7 +16,7 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
   
 * PlayFab Server time synchroniser. (__IMPORTANT__: Plugin is required)  
-  - [JSON .NET for Unity](http://u3d.as/5q2) - JSON Parser. ($27.50 on Asset store) 
+  - [JSON .NET for Unity](http://u3d.as/5q2) - JSON Parser. ($27.50 on Asset store)  
   - __Cloud script__ must be uploaded to PlayFab Server.
   
 * Many useful UI tools. (__IMPORTANT__: Some requires plugins)
