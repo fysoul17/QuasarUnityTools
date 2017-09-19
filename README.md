@@ -73,10 +73,10 @@ Allow multiple server API calls simultaneously, and throw callback when it is al
 
 void Awake()
 {
-    // Some data that has to be loaded before 'ScheduleLoading'
+    // Register. Some data that has to be loaded before 'ScheduleLoading'
     manager.SchedulePreloading(OnReadyToPreLoad);
     
-    // Default data loading.
+    // Register default data loading.
     manager.ScheduleLoading(OnReadyToLoad);
 }
 
@@ -110,7 +110,10 @@ void OnLoggedIntoPlayFab()
 
 ### Server Time
 Fetch server time and sync on client device, so that we can prevent time hacks on client side.
-
+__Attach PlayFabManager, PlayFabTimer and scripts on GameObject__ then use as below:
+```csharp
+ServerTimeSynchroniser.ServerTime
+```
 
 ## RPG
 TBA
