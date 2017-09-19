@@ -97,11 +97,11 @@ void OnLoggedIntoPlayFab()
 {
     yield return StartCoroutine(playFabManager.FetchDataFromServer(() =>
     {
-        Debug.Log("Loading data step 1 done.");
+        // One of loading is done.
     },
     () =>
     {
-        // Loading done. Proceed next process.
+        // All loadings are done. Proceed next process.
     }));
 }
 ```
