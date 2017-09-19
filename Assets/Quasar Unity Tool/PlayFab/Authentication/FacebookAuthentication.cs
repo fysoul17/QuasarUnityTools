@@ -105,7 +105,7 @@ namespace Quasar.PlayFab.Authentication
                 },
                 (playFabResult) =>
                 {
-                    SaveLoginPathway(LoginType.MobileSpecific);
+                    SaveLoginPathway(LoginType.Facebook);
 
                     SuccessCallback(playFabResult);
                 },
