@@ -11,7 +11,7 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
 ## Overview
 
 * PlayFab authentication with various platform with just one line of code. (__IMPORTANT__: API/Plugins provided by each organization are required)
-  - [PlayFab](https://api.playfab.com/sdks/unity) - Tested with Version of 2.26.170814 
+  - [PlayFab](https://api.playfab.com/sdks/unity) - Tested with Version of 2.27.170828  
   - [Facebook](https://developers.facebook.com/docs/unity/) - Tested with Version of 7.9.4
   - [Google Play Service](https://github.com/playgameservices/play-games-plugin-for-unity) - Tested with Version of 0.9.40
   
