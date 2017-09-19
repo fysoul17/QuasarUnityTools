@@ -64,6 +64,50 @@ public class Authentication : MonoBehaviour
     }
 }
 ```
+### Manager
+Allow multiple server API calls simultaneously, and throw callback when it is all finished.
+
+1. Create and attach API calling script on appropriate GameObject.
+```csharp
+[SerializeField] PlayFabManager manager;
+
+void Awake()
+{
+    // Some data that has to be loaded before 'ScheduleLoading'
+    manager.SchedulePreloading(OnReadyToPreLoad);
+    
+    // Default data loading.
+    manager.ScheduleLoading(OnReadyToLoad);
+}
+
+void OnReadyToPreLoad() 
+{
+    // API Calls..
+    
+    // Must call this when API call has finished, so that we can check whether all data is loaded.
+    manager.FinishedPreloading();
+}
+```
+
+2. Simply fire data fetch function on appropriate timing.
+```csharp
+[SerializeField] PlayFabManager playFabManager;
+
+void OnLoggedIntoPlayFab() 
+{
+    yield return StartCoroutine(playFabManager.FetchDataFromServer(() =>
+    {
+        Debug.Log("Loading data step 1 done.");
+    },
+    () =>
+    {
+        Debug.Log("Loading data done. Connecting to Photon.");
+
+        //ConnectToPhoton();
+    }));
+}
+```
+
 ### Server Time
 Fetch server time and sync on client device, so that we can prevent time hacks on client side.
 
