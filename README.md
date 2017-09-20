@@ -19,8 +19,9 @@ Working progress can be found at [Trello](https://trello.com/b/oTbv6v3Z/quasar-u
   - [JSON .NET for Unity](http://u3d.as/5q2) - JSON Parser. ($27.50 on Asset store)  
   - __Cloud script__ must be uploaded to PlayFab Server
   
-* Many useful UI tools. (__IMPORTANT__: Some requires plugins)
+* Many useful UI tools. (__IMPORTANT__: Some require plugins)
   - __Loading Indicator__ needs [iTween](http://u3d.as/1s9) - Tested with version of 2.0.7
+  - Flexible tab window
   
 * RPG tools that can be commonly used for RPG Games such as Stat system or inventory system.
 
@@ -142,6 +143,10 @@ public class UITest : MonoBehaviour
     }
 }
 ```
+### Tab Window
+Grab prefab named 'Tab Window' and put it on Canvas. It has 3 tab buttons and 3 panels that interacts to each button as a default.  
+In order to make from scratch, just add 'Tab Window Controller' script and 'Tab Window Button' prefabs, then link buttons and panels using the controller script.
+
 
 ## Utilities
 ```csharp
@@ -235,7 +240,7 @@ public class GameMaster : MonoBehaviour
     // IMPORTANT: Must remove when destoried as the event is static.
     void OnDestroy()
     {
-        EventHandler.RemoveObserver("OnMapEnter", JoinBattle);
+        EventHandler.RemoveObserver("OnPlayerAwaken", JoinBattle);
     }
     
     void JoinBattle(params object[] args) 
