@@ -144,7 +144,7 @@ public class UITest : MonoBehaviour
 }
 ```
 ### Tab Window
-Grab prefab named 'Tab Window' and put it on Canvas. It has 3 tab buttons and 3 panels that interacts to each button as a default.  
+Grab prefab named 'Tab Window' and put it on Canvas. It has 3 tab buttons and 3 panels that interact to each button as a default.  
 In order to make from scratch, just add 'Tab Window Controller' script and 'Tab Window Button' prefabs, then link buttons and panels using the controller script.
 
 
