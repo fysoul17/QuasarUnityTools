@@ -164,7 +164,11 @@ int randomSelectedIndex = QuasarRandom.SelectRandomIndexWithProbability(emergePr
 // Can be renamed by modifying 'enum BigNumberFormat'.
 double aBigNumber = 10000000000d;
 string formattedString = aBigNumber.ToFormattedString("n2");
-// 10,000,000,000 = 10.00 C
+// 10,000,000,000 = 10.00 C (A, B, C ...)
+
+int aIntValue = 10000000;
+string formattedIntString = aIntValue.ToFormattedString("n2");
+// 10,000,000 = 10.00 M (K, M, B, T)
 ```
 
 ## Input
