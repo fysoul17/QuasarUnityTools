@@ -87,5 +87,43 @@ namespace Quasar.Util
             COUNT
 
         }
+
+        public static string ToFormattedString(this int intValue, string formatter = "n2")
+        {
+            if (intValue >= int.MaxValue) return "Infitity";
+
+            string formattedNumber = string.Empty;
+            int formatIndex = 0;
+
+            float floatValue = (float)intValue;
+
+            while (floatValue >= 1000)
+            {
+                formatIndex++;
+
+                floatValue *= 0.001f;
+            }
+
+            if (formatIndex == 0)
+            {
+                formattedNumber = floatValue.ToString("n0");
+            }
+            else
+            {
+                formattedNumber = floatValue.ToString(formatter) + (KMBTFormat)formatIndex;
+            }
+
+            return formattedNumber;
+        }
+
+        public enum KMBTFormat
+        {
+            K = 1,
+            M,
+            B,
+            T,
+
+            COUNT
+        }
     }
 }
