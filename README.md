@@ -1,4 +1,4 @@
-# Useful tools for Unity by Terry @ Quasar Inc & GIX Inc.
+# Useful tools for Unity by Quasar Inc & GIX Inc.
 _Copyright (c) 2015 Quasar Inc., GIX Inc., Terry Keetae Kwon All rights reserved._
 
 This project is for Unity&reg; to provide a useful tools that allows game developers to save time making thoes on every project.
