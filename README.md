@@ -241,7 +241,7 @@ public class GameMaster : MonoBehaviour
         EventHandler.AddObserver("OnPlayerAwaken", JoinBattle);
     }
     
-    // IMPORTANT: Must remove when destoried as the event is static.
+    // IMPORTANT: Must remove when destroyed as the event is static.
     void OnDestroy()
     {
         EventHandler.RemoveObserver("OnPlayerAwaken", JoinBattle);
